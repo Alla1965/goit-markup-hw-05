@@ -345,7 +345,7 @@
 				</div>
 			</section>
 		</main>
-
+		
 		<footer class="basement">
 			<div class="container">
 				<div class="footer-logo">
@@ -388,7 +388,78 @@
 						</li>
 					</ul>
 				</div>
+				
+					<form class="feedback">Subscribe 
+						<div class="input-plas-btn">
+							<input class="input-footer" type="email" name="email" />
+							<button type="submit" class="btn-footer">Subscribe
+								<svg class="icon-email" width="24" height="24">
+									<use xlink:href="./images/icon-net.svg#icon-Frame-3"></use>
+								</svg>
+							</button>
+						</div>
+					  </form>
+				
 			</div>
 		</footer>
+		<div class="modal-overlay">
+			<div class="modal">
+				<form class="form-contacts">
+					  <button class="btn-close" >
+					<svg class="icon-close" width="24" height="24">
+						<use xlink:href="./images/icon-net.svg#icon-Ellipse"></use>
+					</svg>
+					 </button>
+					 <p class="form-contacts-text">Leave your contacts and we will call you back</p>
+					 <ul class="contacts">
+						 <li>
+						     <label class="label-name" for="input-id">Name</label>
+							 <div class="container-contacts">
+								 <svg class="icon-name" width="18" height="24">
+									 <use xlink:href="./images/icon-net.svg#icon-person-black-18dp-1"></use>
+								 </svg>
+								  <input id="input-id" class="input-name" type="text" name="name" >
+							 </div>
+			                  
+					     </li>
+						<li>
+							<label class="label-name" >Phone
+								<div class="container-contacts">
+									<svg class="icon-name" width="18" height="24">
+										<use xlink:href="./images/icon-net.svg#icon-phone-black-18dp-1"></use>
+									</svg>
+									<input class="input-phone" type="tel" name="tel" >
+								</div>
+							</label>
+						</li>
+						<li>
+							<label class="label-name" >Email
+								<div class="container-contacts">
+									<svg class="icon-name" width="18" height="24">
+										<use xlink:href="./images/icon-net.svg#icon-email-black-18dp-1"></use>
+									</svg>
+									<input class="input-email" type="email" name="email" >
+								</div>
+							</label>	
+						</li>
+						<li>
+							<label class="label-name">Comment
+								<input class="input-comment" type="text" name="comment" placeholder="Text input">
+							</label>
+						</li>
+					 </ul>
+					 <label class="check-label">
+						<input class="check-box" type="checkbox"/>
+						I accept the terms and conditions of the Privacy Policy
+					 </label>
+					 <button type="button" class="button-send">Send</button>
+						
+					</form>
+
+				<!-- <p>Modal content Modal content Modal content Modal content Modal content</p>
+				<button class="btn-modal" >Закрити модальне вікно </button> -->
+			</div>
+		</div>
+
 	</body>
 </html>
