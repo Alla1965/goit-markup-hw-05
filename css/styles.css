@@ -565,24 +565,10 @@ font-weight: 500;
 	gap: 24px;
 }
 .button-send {
-	display: flex;
-	min-width:  165px; 
-	height: 40px;
-	display: flex;
-	align-items: center;
-	 justify-content: center;
-	  text-align: center;
-	  font-family: "Roboto", sans-serif;
-	 font-weight: 500;
-     font-size: 16px;
-	  line-height: 1.5;
-    letter-spacing: 0.04em;
-	color: #ffffff;
-	cursor: pointer;
-	background-color: #4D5AE5;
-	border: none; 
-     border-radius: 4px;
-}
+	 display: block;
+	 min-width: 169px;
+	 height: 56px;
+	}
 .icon-email {
 	margin-left: 16px; 
 }
@@ -684,7 +670,7 @@ height: 336px;
 	outline: transparent;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-.input-name:focus .icon-name{
+.input-name:focus {
 	border-color: #4D5AE5;
 }
  .label-name .input-comment  {
@@ -707,10 +693,13 @@ padding: 0;
 	left: 16px;
 	top:50%;
      transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.user-name:focus .icon-name{
+	fill: #4D5AE5; 
 }
 .div-comment {
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 .text-comment {
 	width: 100%; 
@@ -752,7 +741,7 @@ color: #8e8f99;
 	justify-content: center;
 	fill: transparent;
 }
-.check-box:checked  .user-privacy{
+.check-box:checked  {
 	background-color: #404bbf; 
 	border: none;
 	fill:  #F4F4FD;
