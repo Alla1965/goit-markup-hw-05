@@ -678,7 +678,7 @@ height: 336px;
 	padding-left: 38px;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-.input-name:focus +  .icon-name{
+.input-name:focus {
 	fill: #4D5AE5;
 	}
  /* .label-name .input-comment  {
@@ -750,10 +750,7 @@ color: #8e8f99;
 	justify-content: center;
 	fill: transparent;
 }
-/* .icon-name-check {
-
-} */
-input [type="checkbox"]:checked+.check-label  .user-span   {
+.check-box:checked+.check-label  .user-span   {
 	background-color: #404bbf; 
 	border: none;
 	fill:  #F4F4FD;
