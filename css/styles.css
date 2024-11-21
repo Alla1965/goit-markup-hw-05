@@ -683,9 +683,8 @@ height: 336px;
   }
     .input-name:focus {
 	border-color: #4D5AE5; 
-	/* fill: #4D5AE5; */
 	}
-	.input-name:focus .icon-name {
+	.input-name:focus+ .icon-name {
 		fill: #4D5AE5;
 	}
 .container-contacts{
