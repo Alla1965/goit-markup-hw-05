@@ -675,12 +675,20 @@ height: 336px;
 	border-radius: 4px; 
 	background-color: transparent;
 	outline: transparent;
-	padding-left: 38px;
+	
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-.input-name:focus {
-	fill: #4D5AE5;
+  .input-current{
+	padding-left: 38px;
+  }
+.input-current:focus {
+	border-color: #4D5AE5; 
+	/* fill: #4D5AE5; */
 	}
+	.input-current:focus .icon-name {
+		fill: #4D5AE5;
+	}
+
  /* .label-name .input-comment  {
 		height: 120px;
 		border: 2px solid silver;
