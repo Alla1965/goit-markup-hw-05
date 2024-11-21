@@ -681,18 +681,13 @@ height: 336px;
   .input-current{
 	padding-left: 38px;
   }
-.input-current:focus {
+    .input-name:focus {
 	border-color: #4D5AE5; 
 	/* fill: #4D5AE5; */
 	}
-	.input-current:focus .icon-name {
+	.input-name:focus .icon-name {
 		fill: #4D5AE5;
 	}
-
- /* .label-name .input-comment  {
-		height: 120px;
-		border: 2px solid silver;
-	} */
 .container-contacts{
 	position: relative;
 	margin-bottom: 8px;
