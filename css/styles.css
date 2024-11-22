@@ -458,7 +458,6 @@ button:focus {
 .basement .container {
 	display:flex;
 	align-items: baseline;
-	padding-left: 0;
 	
 }
 .basement .logo {
@@ -551,10 +550,10 @@ font-weight: 500;
 	pointer-events: none;
 	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-overlay.is-open {
+.modal-overlay .is-open {
 		opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+        visibility: visible;
+        pointer-events: auto;
 }
 .modal {
 	position: absolute; 
@@ -569,7 +568,8 @@ font-weight: 500;
 	padding: 16px;
 		transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	padding: 72px 24px 24px 24px;
-}
+
+	}
 .feedback {
 	display: flex;
 	gap: 24px;
@@ -583,9 +583,11 @@ font-weight: 500;
 	 letter-spacing: 0.04em;
      color: #ffffff;
 	 cursor: pointer;
-	 background-color: #4D5AE5;
+	 /* background-color: #4D5AE5; */
 	 border: none;
 	 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+	 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	 background: #4d5ae5;
 	}
 .icon-email {
 	margin-left: 16px; 
@@ -763,7 +765,11 @@ color: #8e8f99;
 .check-link {
 	color: #4d5ae5;
 	display: inline-block;
-}
+	text-decoration: underline solid;
+	text-decoration-skip-ink: none;
+	text-underline-offset: auto;
+	text-underline-position: from-font;
+	}
 .btn-footer {
 	display: flex;
 	min-width: 165px ;
